@@ -1,12 +1,24 @@
-# Getting Started with Create React App
+# Employee Management System
+
+## Description
+This is an Employee Management System built using React.js. The application allows you to manage employees, their details, and administrative operations.
+
+## Features
+- Home Page: Display company information.
+- Login Page: User authentication.
+- Dashboard: User-specific information and functionality.
+- Admin Login: Admin authentication.
+- Admin Dashboard: Administrative operations (Add/Remove Employee, Manager, Department, etc.)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +26,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +41,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -68,3 +80,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Project Setup
+
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd employee-management-system
+    ```
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm start
+    ```
+
+## Testing
+This project uses the JSONPlaceholder API for testing purposes.
+
+- **Users**: `https://jsonplaceholder.typicode.com/users`
+- **Posts**: `https://jsonplaceholder.typicode.com/posts`
+- **Comments**: `https://jsonplaceholder.typicode.com/comments`
+
+## Technologies Used
+- React.js
+- React Router
+- Axios (for API calls)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
